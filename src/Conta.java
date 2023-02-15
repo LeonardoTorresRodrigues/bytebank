@@ -5,7 +5,7 @@ public class Conta {
 	int numero;
 	String titular;
 
-	// comportamentos / métodos (parecido com função)
+	// comportamentos / métodos
 
 	public void deposita(double valor) {
 		this.saldo += valor;
@@ -21,12 +21,10 @@ public class Conta {
 	}
 
 	public boolean transfere(double valor, Conta destino) {
-		if (this.saldo >= valor) {
-			this.saldo -= valor;
+		if (saca(valor)) {
 			destino.deposita(valor);
 			return true;
 		}
-
 		return false;
 	}
 }
