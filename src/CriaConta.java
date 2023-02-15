@@ -20,5 +20,5 @@ public class CriaConta {
 	}
 }
 
-// primeiraConta é uma refêrencia a Conta -> Conta primeiraConta = new Conta();
-// primeiraConta.saldo = 200; -> Acessando atributo saldo via refêrencia e alterando esse atributo;
+// primeiraConta é uma referência a Conta -> Conta primeiraConta = new Conta();
+// primeiraConta.saldo = 200; -> Acessando atributo saldo via referência e alterando esse atributo;
